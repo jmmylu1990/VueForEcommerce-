@@ -1,0 +1,9 @@
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+// @import "../node_modules/bootstrap/scss/functions";
+@import "~bootstrap/scss/functions";
+// 3. Include remainder of required Bootstrap stylesheets
+@import "./helpers/_variable.scss";
+// 5. Include remainder of required parts
+@import "~bootstrap/scss/mixins";
+
+@import "~bootstrap/scss/bootstrap";
